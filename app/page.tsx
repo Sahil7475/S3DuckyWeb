@@ -156,36 +156,11 @@ export default function S3DuckyLanding() {
             S3Ducky
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 theme-transition">
-            Modern S3 Bucket Viewer for Windows
+            Modern Cross Platform S3 Bucket Viewer
           </p>
-          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto theme-transition">
-            A powerful, secure, and user-friendly desktop application for browsing, managing, and downloading files from
-            your AWS S3 buckets.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="text-lg px-8 py-6 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 gradient-transition"
-              asChild
-            >
-              <a href="#download" className="flex items-center">
-                <Download className="w-5 h-5 mr-2" />
-                Download S3Ducky v1.0.0
-              </a>
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent theme-transition" asChild>
-              <a href="#demo" className="flex items-center">
-                View Screenshots
-              </a>
-            </Button>
-          </div>
+
+         
           <div className="mt-8 flex justify-center items-center space-x-4 text-sm text-muted-foreground">
-            <Badge
-              variant="secondary"
-              className="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-200 theme-transition"
-            >
-              Windows 10+
-            </Badge>
             <Badge
               variant="secondary"
               className="bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-200 theme-transition"
